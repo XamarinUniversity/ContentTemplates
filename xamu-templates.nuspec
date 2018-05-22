@@ -18,5 +18,6 @@
   <files>
     <file src=".\course\**" target="content\course" exclude=""/>
     <file src=".\objective\**" target="content\objective" exclude=""/>
+    <file src=".\exercise\**" target="content\exercise" exclude=""/>
   </files>
 </package>
