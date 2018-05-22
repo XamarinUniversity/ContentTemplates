@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>XamarinUniversity.ContentTemplates</id>
-    <version>0.1.2</version>
+    <version>0.2.0</version>
     <authors>Adam Patridge</authors>
     <licenseUrl>https://github.com/XamarinUniversity/ContentTemplates/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/XamarinUniversity/ContentTemplates</projectUrl>
@@ -16,6 +16,7 @@
     </packageTypes>
   </metadata>
   <files>
-    <file src="..\course\**" target="content" exclude=""/>
+    <file src=".\course\**" target="content\course" exclude=""/>
+    <file src=".\objective\**" target="content\objective" exclude=""/>
   </files>
 </package>

@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "XamarinUniversity.ContentTemplates.Objective",
+    "author": "Adam Patridge",
+    "classifications": [ "XamarinUniversity", "Objective" ],
+    "name": "Course Objective for Xamarin University",
+    // "groupIdentity": "XamarinUniversity",
+    "shortName": "xamu-objective",
+    "sourceName": "XamuObjectiveTemplate",
+    "preferNameDirectory": true,
+    "guids": [
+        "a80eda4a-1105-44b6-a161-81bf7bac7557"
+    ],
+    "symbols": {
+        "title": {
+            "type": "parameter",
+            "defaultValue": "Course long title (ABC101)",
+            "replaces": "{title}"
+        },
+        "titleShort": {
+            "type": "parameter",
+            "defaultValue": "Course title",
+            "replaces": "{titleShort}"
+        },
+        "description": {
+            "type": "parameter",
+            "defaultValue": "This course is going to be amazing. You will learn all sorts of wonderful things.",
+            "replaces": "{description}"
+        },
+        "youTubeVideoId": {
+            "type": "parameter",
+            "defaultValue": "SrkbPinx3Zo",
+            "replaces": "{youTubeVideoId}"
+        }
+    }
+  }
