@@ -2,7 +2,7 @@
     "$schema": "http://json.schemastore.org/template",
     "identity": "XamarinUniversity.ContentTemplates.Objective",
     "author": "Adam Patridge",
-    "classifications": [ "XamarinUniversity", "Objective" ],
+    "classifications": [ "XamarinUniversity", "Course", "Objective" ],
     "name": "Course Objective for Xamarin University",
     // "groupIdentity": "XamarinUniversity",
     "shortName": "xamu-objective",
