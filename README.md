@@ -38,9 +38,19 @@ dotnet new --uninstall /path/to/templates/directory/
 
 ### Current templates
 
+For help with any of the parameters used in these templates, append `--help` to any template command.
+
+```bash
+dotnet new {template} --help
+```
+
 #### Course
 
-Create the initial structure of a new course.
+Create the initial structure of a new course: typical course default.md, summary.md, and meta.json.
+
+```bash
+dotnet new xamu-course
+```
 
 ### Future templates/features
 

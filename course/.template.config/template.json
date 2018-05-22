@@ -1,0 +1,101 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "XamarinUniversity.ContentTemplates.Course",
+    "author": "Adam Patridge",
+    "classifications": [ "XamarinUniversity", "Course" ],
+    "name": "Course for Xamarin University",
+    // "groupIdentity": "XamarinUniversity",
+    "shortName": "xamu-course",
+    "sourceName": "XamuCourseTemplate",
+    "preferNameDirectory": true,
+    "guids": [
+        "a80eda4a-1105-44b6-a161-81bf7bac7557"
+    ],
+    "symbols": {
+        "courseId": {
+            "type": "parameter",
+            "defaultValue": "abc101",
+            "replaces": "{courseId}"
+        },
+        "title": {
+            "type": "parameter",
+            "defaultValue": "Course long title (ABC101)",
+            "replaces": "{title}"
+        },
+        "titleShort": {
+            "type": "parameter",
+            "defaultValue": "Course title",
+            "replaces": "{titleShort}"
+        },
+        "topicId": {
+            "type": "parameter",
+            "defaultValue": "10149",
+            "replaces": "{topicId}"
+        },
+        "pageTagsCsv": {
+            "type": "parameter",
+            "defaultValue": "training, learn Xamarin, Xamarin.iOS, Xamarin.Android, Xamarin.Forms, mobile apps, Cross Platform",
+            "replaces": "{pageTagsCsv}"
+        },
+        "timeEstimate": {
+            "type": "parameter",
+            "defaultValue": "75",
+            "replaces": "{timeEstimate}"
+        },
+        "imageUrl": {
+            "type": "parameter",
+            "defaultValue": "/images/xamarin-forms@2x.png",
+            "replaces": "{imageUrl}"
+        },
+        "prerequisiteGuidsCsv": {
+            "type": "parameter",
+            "defaultValue": "",
+            "replaces": "{prerequisiteGuidsCsv}"
+        },
+        "repoUrl": {
+            "type": "parameter",
+            "defaultValue": "https://github.com/XamarinUniversity/ABC101/",
+            "replaces": "{repoUrl}"
+        },
+        "repoDownloadUrl": {
+            "type": "parameter",
+            "defaultValue": "https://github.com/XamarinUniversity/ABC101/archive/master.zip",
+            "replaces": "{repoDownloadUrl}"
+        },
+        "description": {
+            "type": "parameter",
+            "defaultValue": "This course is going to be amazing. You will learn all sorts of wonderful things.",
+            "replaces": "{description}"
+        },
+        "objective1": {
+            "type": "parameter",
+            "defaultValue": "Do first thing",
+            "replaces": "{objective1}"
+        },
+        "objective2": {
+            "type": "parameter",
+            "defaultValue": "Do second thing",
+            "replaces": "{objective2}"
+        },
+        "objective3": {
+            "type": "parameter",
+            "defaultValue": "Do third thing",
+            "replaces": "{objective3}"
+        },
+        "authorId1": {
+            "type": "parameter",
+            "defaultValue": "first-someone",
+            "replaces": "{authorId1}"
+        },
+        "authorId2": {
+            "type": "parameter",
+            "defaultValue": "second-someone",
+            "replaces": "{authorId2}"
+        },
+        "summary": {
+            "type": "parameter",
+            "defaultValue": "This course taught you something wonderful. The next course, **ABC102 - More awesomeness**, covers even more amazing things.",
+            "replaces": "{summary}"
+        }
+    }
+  }
