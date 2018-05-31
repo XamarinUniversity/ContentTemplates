@@ -22,11 +22,6 @@
             "defaultValue": "Course long title (ABC101)",
             "replaces": "{title}"
         },
-        "titleShort": {
-            "type": "parameter",
-            "defaultValue": "Course title",
-            "replaces": "{titleShort}"
-        },
         "topicId": {
             "type": "parameter",
             "defaultValue": "10149",
@@ -98,4 +93,4 @@
             "replaces": "{summary}"
         }
     }
-  }
+}

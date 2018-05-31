@@ -2,7 +2,7 @@
 id: "a80eda4a-1105-44b6-a161-81bf7bac7557"
 creditSlug: "{courseId}"
 title: "{title}"
-nav-title: "{titleShort}"
+nav-title: "Welcome to {courseId}"
 topicId: {topicId}
 tokens:
     - key: page-tags
