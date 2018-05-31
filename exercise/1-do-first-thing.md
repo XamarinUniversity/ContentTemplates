@@ -1,6 +1,7 @@
 ﻿---
 id: c170c46e-7b7a-47dd-a4bc-be3c2aaae99f
-title: Run the LayoutOptions app
+title: "Sample long descriptive title"
+nav-title: "Sample short title"
 ---
 
 This is a sample exercise section.
