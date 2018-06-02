@@ -4,7 +4,6 @@
     "author": "Adam Patridge",
     "classifications": [ "XamarinUniversity", "Course", "Exercise" ],
     "name": "Course exercise for Xamarin University",
-    // "groupIdentity": "XamarinUniversity",
     "shortName": "xamu-exercise",
     "sourceName": "XamuExerciseTemplate",
     "preferNameDirectory": true,
@@ -58,4 +57,4 @@
             "replaces": "{summary}"
         }
     }
-  }
+}
