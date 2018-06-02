@@ -12,6 +12,6 @@
         }
     },
     "usageExamples": [
-      "--page 1-create-a-page.md"
+        "--page 1-create-a-page.md"
     ]
 }

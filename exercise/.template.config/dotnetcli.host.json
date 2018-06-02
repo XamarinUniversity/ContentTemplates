@@ -2,40 +2,35 @@
     "$schema": "http://json.schemastore.org/dotnetcli.host",
     "symbolInfo": {
         "exerciseNumber": {
-            "longName": "exercise-number",
-            "shortName": "number"
+            "shortName": "num"
         },
         "title": {
-            "longName": "title",
-            "shortName": "t1"
+            "shortName": "t"
         },
         "titleShort": {
-            "longName": "title-short",
-            "shortName": "t0"
+            "shortName": "ts"
         },
         "repoUrl": {
-            "longName": "repo-url",
             "shortName": "repo"
         },
         "primaryGoal": {
-            "longName": "primary-goal",
             "shortName": "goal"
         },
         "completedImageFilename": {
-            "longName": "completed-image-filename",
-            "shortName": "img-src"
+            "shortName": "imgSrc"
         },
         "completedImageAltDescription": {
-            "longName": "completed-image-alt-description",
-            "shortName": "img-alt"
+            "shortName": "imgAlt"
         },
         "completedImageTitle": {
-            "longName": "completed-image-title",
-            "shortName": "img-title"
+            "shortName": "imgTitle"
         },
         "summary": {
-            "longName": "summary",
             "shortName": "sum"
         }
-    }
+    },
+    "usageExamples": [
+        "",
+        "--num 2 --title \"Create an exercise\" --repo \"https://github.com/XamarinUniversity/ABC101\" --goal \"In this exercise you will create an exercise.\" --summary \"In this exercise you created an exercise.\""
+    ]
 }

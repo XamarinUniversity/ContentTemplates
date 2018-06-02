@@ -6,24 +6,21 @@
             "shortName": "number"
         },
         "title": {
-            "type": "parameter",
-            "defaultValue": "Course long title (ABC101)",
-            "replaces": "{title}"
+            "longName": "title",
+            "shortName": "t"
         },
         "titleShort": {
-            "type": "parameter",
-            "defaultValue": "Course title",
-            "replaces": "{titleShort}"
+            "shortName": "ts"
         },
         "description": {
-            "type": "parameter",
-            "defaultValue": "This course is going to be amazing. You will learn all sorts of wonderful things.",
-            "replaces": "{description}"
+            "longName": "desc",
+            "shortName": "d"
         },
         "youTubeVideoId": {
-            "type": "parameter",
-            "defaultValue": "SrkbPinx3Zo",
-            "replaces": "{youTubeVideoId}"
+            "type": "parameter"
         }
-    }
+    },
+    "usageExamples": [
+        "--page 1-create-a-page.md"
+    ]
 }
