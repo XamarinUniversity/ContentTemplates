@@ -38,7 +38,7 @@
         },
         "completedImageFilename": {
             "type": "parameter",
-            "defaultValue": "completed_screenshot.png",
+            "defaultValue": "ex1_completed.png",
             "replaces": "{completedImageFilename}"
         },
         "completedImageAltDescription": {
