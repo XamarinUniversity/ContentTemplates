@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "XamarinUniversity.ContentTemplates.Page",
+    "author": "Adam Patridge",
+    "classifications": [ "XamarinUniversity", "Course", "Page" ],
+    "name": "Course Page for Xamarin University",
+    "shortName": "xamu-page",
+    "sourceName": "XamuPageTemplate",
+    "preferNameDirectory": true,
+    "guids": [
+        "a80eda4a-1105-44b6-a161-81bf7bac7557"
+    ],
+    "symbols": {
+        "page": {
+            "type": "parameter",
+            "defaultValue": "default.md",
+            "fileRename": "pageName.md"
+        },
+        "title": {
+            "type": "parameter",
+            "defaultValue": "Course long title (ABC101)",
+            "replaces": "{title}"
+        },
+        "titleShort": {
+            "type": "parameter",
+            "defaultValue": "Course title",
+            "replaces": "{titleShort}"
+        }
+    }
+}
