@@ -16,9 +16,18 @@
             "defaultValue": "abc101",
             "replaces": "{courseId}"
         },
+        "courseIdUpper":{
+            "type": "generated",
+            "generator": "casing",
+            "parameters": {
+              "source": "courseId",
+              "toLower": false
+            },
+            "replaces": "{courseIdUpper}"
+        },
         "title": {
             "type": "parameter",
-            "defaultValue": "Course long title (ABC101)",
+            "defaultValue": "Course long title",
             "replaces": "{title}"
         },
         "topicId": {
