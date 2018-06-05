@@ -4,7 +4,6 @@
     "author": "Adam Patridge",
     "classifications": [ "XamarinUniversity", "Course", "Objective" ],
     "name": "Course Objective for Xamarin University",
-    // "groupIdentity": "XamarinUniversity",
     "shortName": "xamu-objective",
     "sourceName": "XamuObjectiveTemplate",
     "preferNameDirectory": true,

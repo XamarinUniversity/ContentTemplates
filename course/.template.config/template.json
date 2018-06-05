@@ -16,7 +16,7 @@
             "defaultValue": "abc101",
             "replaces": "{courseId}"
         },
-        "courseIdUpper":{
+        "courseIdUpper": {
             "type": "generated",
             "generator": "casing",
             "parameters": {

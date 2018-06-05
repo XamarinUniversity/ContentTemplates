@@ -34,6 +34,6 @@
     },
     "usageExamples": [
         "",
-        "--num 2 --title \"Create an exercise\" --repo \"https://github.com/XamarinUniversity/ABC101\" --goal \"In this exercise you will create an exercise.\" --summary \"In this exercise you created an exercise.\""
+        "--name exercise2 --id abc123 --num 2 --title \"Create an exercise\" --repo \"https://github.com/XamarinUniversity/ABC101\" --goal \"In this exercise you will create an exercise.\" --summary \"In this exercise you created an exercise.\""
     ]
 }

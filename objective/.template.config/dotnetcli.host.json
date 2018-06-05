@@ -21,6 +21,6 @@
         }
     },
     "usageExamples": [
-        "--page 1-create-a-page.md"
+        "--name 1-do-some-objective"
     ]
 }
