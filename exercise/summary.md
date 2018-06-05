@@ -8,4 +8,4 @@ tokens:
 
 {summary}
 
-You can view the completed solution in the **Exercise 1** > **Completed** folder of your copy of the cloned or downloaded [course materials]({{course-repo-url}}).
+You can view the completed solution in the **Exercise {exerciseNumber}** > **Completed** folder of your copy of the cloned or downloaded [course materials]({{course-repo-url}}).

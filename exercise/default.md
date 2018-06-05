@@ -1,7 +1,7 @@
 ---
 id: "a80eda4a-1105-44b6-a161-81bf7bac7557"
 nav-title: Exercise {exerciseNumber}
-title: "Exercise {exerciseNumber}: {title}"
+title: "Exercise {exerciseNumber}: {title} ({courseIdUpper})"
 ---
 
 {primaryGoal}
