@@ -1,5 +1,5 @@
 ﻿---
-id: 5c9f9f3e-8182-451c-8628-489602f691b2
+id: "a80eda4a-1105-44b6-a161-81bf7bac7557"
 title: "Open the starter solution"
 tokens:
     - key: course-repo-url
