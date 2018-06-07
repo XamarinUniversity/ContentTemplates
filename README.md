@@ -46,15 +46,38 @@ dotnet new {template} --help
 
 #### Course
 
-Create the initial structure of a new course: typical course default.md, summary.md, and meta.json.
+Create the initial structure of a new course. There are many customizable parameters, but placeholder data you can replace manually is used by default.
 
 ```bash
 dotnet new xamu-course
 ```
 
+#### Objective
+
+Create the initial structure of a course objective. There are several customizable parameters, but placeholder data you can replace manually is used by default.
+
+```bash
+dotnet new xamu-objective --name 1-do-something-cool
+```
+
+#### Exercise
+
+Create the initial structure of a course exercise.
+
+```bash
+dotnet new xamu-exercise --name exercise2 --id abc123 --num 2 --title \"Create an exercise\" --repo \"https://github.com/XamarinUniversity/ABC101\" --goal \"In this exercise you will create an exercise.\" --summary \"In this exercise you created an exercise.\"
+```
+
+#### Page
+
+Create a new course content page with the basic YAML, including a unique page GUID.
+
+```bash
+dotnet new xamu-page --page 1-create-a-page.md
+```
+
 ### Future templates/features
 
-* Course exercise template
-* Course objective template
+* Content track (e.g., iOS, Android, Azure)
 * Course quiz and other interactive element templates
-* Auto-complete helper
+* Markdown format helper
