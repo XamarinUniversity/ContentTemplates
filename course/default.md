@@ -18,12 +18,12 @@ tokens:
       value: "{repoUrl}"
     - key: course-download-url
       value: "{repoDownloadUrl}"
-# links:
-#     - group: Additional Documentation
-#       title: "Some docs"
-#       url: "https://docs.microsoft.com/"
-#     - title: "Some more docs"
-#       url: "https://university.xamarin.com"
+#links:
+#    - group: Additional Documentation
+#      title: "Some docs"
+#      url: "https://docs.microsoft.com/"
+#    - title: "Some more docs"
+#      url: "https://university.xamarin.com"
 ---
 
 {description}
