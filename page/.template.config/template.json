@@ -14,7 +14,7 @@
         "page": {
             "type": "parameter",
             "defaultValue": "default.md",
-            "fileRename": "pageName.md"
+            "fileRename": "page.md"
         },
         "title": {
             "type": "parameter",

@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>  
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>XamarinUniversity.ContentTemplates</id>
-    <version>0.7.4</version>
+    <version>0.7.5</version>
     <authors>Adam Patridge</authors>
     <licenseUrl>https://github.com/XamarinUniversity/ContentTemplates/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/XamarinUniversity/ContentTemplates</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Templates for creating course content for Xamarin University's self-guided learning portal</description>
-    <releaseNotes>Added page template.</releaseNotes>
+    <releaseNotes>Added page template (page variable fixed in 0.7.5).</releaseNotes>
     <copyright>© 2018 Microsoft</copyright>
     <tags>XamarinUniversity template</tags>
     <packageTypes>
