@@ -35,11 +35,11 @@
             "defaultValue": "Course long title",
             "replaces": "{title}"
         },
-        "titleShort": {
-            "type": "parameter",
-            "defaultValue": "Course title",
-            "replaces": "{titleShort}"
-        },
+        // "titleShort": {
+        //     "type": "parameter",
+        //     "defaultValue": "Course title",
+        //     "replaces": "{titleShort}"
+        // },
         "repoUrl": {
             "type": "parameter",
             "defaultValue": "https://github.com/XamarinUniversity/ABC101/",

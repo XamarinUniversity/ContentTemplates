@@ -13,22 +13,33 @@
     "symbols": {
         "title": {
             "type": "parameter",
-            "defaultValue": "Course long title (ABC101)",
+            "defaultValue": "Objective long title",
             "replaces": "{title}"
         },
         "titleShort": {
+            "description": "A short title when the full title might be excessive. (The full `title` is used when this isn't provided.)",
             "type": "parameter",
-            "defaultValue": "Course title",
-            "replaces": "{titleShort}"
+            "datatype": "text"
+        },
+        "titleShortReplacer": {
+            "description": "Coalesces a provided titleShort value with the title fallback.",
+            "type": "generated",
+            "generator": "coalesce",
+            "parameters": {
+              "sourceVariableName": "titleShort",
+              "fallbackVariableName": "title"
+            },
+            "replaces": "{templateId}"
         },
         "description": {
+            "description": "This is the short introduction paragraph to the [first] objective video.",
             "type": "parameter",
-            "defaultValue": "This course is going to be amazing. You will learn all sorts of wonderful things.",
+            "defaultValue": "<!--TODO-->",
             "replaces": "{description}"
         },
         "youTubeVideoId": {
             "type": "parameter",
-            "defaultValue": "SrkbPinx3Zo",
+            "defaultValue": "dQw4w9WgXcQ",
             "replaces": "{youTubeVideoId}"
         }
     }

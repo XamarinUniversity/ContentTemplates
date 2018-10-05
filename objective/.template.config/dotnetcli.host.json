@@ -1,26 +1,20 @@
 {
     "$schema": "http://json.schemastore.org/dotnetcli.host",
     "symbolInfo": {
-        "exerciseNumber": {
-            "longName": "exercise-number",
-            "shortName": "number"
-        },
         "title": {
-            "longName": "title",
             "shortName": "t"
         },
         "titleShort": {
             "shortName": "ts"
         },
         "description": {
-            "longName": "desc",
-            "shortName": "d"
+            "shortName": "desc"
         },
         "youTubeVideoId": {
-            "type": "parameter"
+            "shortName": "video"
         }
     },
     "usageExamples": [
-        "--name 1-do-some-objective"
+        "--name 1-do-some-objective --title=\"Do some objective that is really useful\" --titleShort=\"Do something\" --description=\"In this section, we will learn how to do something very useful\" --youTubeVideoId=\"dQw4w9WgXcQ\""
     ]
 }
