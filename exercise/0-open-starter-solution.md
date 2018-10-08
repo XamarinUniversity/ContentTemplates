@@ -6,4 +6,4 @@ tokens:
       value: "{repoUrl}"
 ---
 
-Open the starter project from the **Exercise {exerciseNumber} > Start** folder in your copy of the cloned or downloaded [course materials]({{course-repo-url}}) in either **Visual Studio** on Windows or **Visual Studio for Mac**.
+Open the starter solution from the **Exercise {exerciseNumber}** > **Start** folder in your copy of the cloned or downloaded [course materials]({{course-repo-url}}) in either **Visual Studio** on Windows or **Visual Studio for Mac**.
