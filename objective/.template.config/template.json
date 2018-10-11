@@ -29,7 +29,7 @@
               "sourceVariableName": "titleShort",
               "fallbackVariableName": "title"
             },
-            "replaces": "{templateId}"
+            "replaces": "{titleShort}"
         },
         "description": {
             "description": "This is the short introduction paragraph to the [first] objective video.",
