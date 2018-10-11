@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>XamarinUniversity.ContentTemplates</id>
-    <version>0.7.6</version>
+    <version>0.8.2</version>
     <authors>Adam Patridge</authors>
     <licenseUrl>https://github.com/XamarinUniversity/ContentTemplates/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/XamarinUniversity/ContentTemplates</projectUrl>
@@ -10,9 +10,13 @@
     <description>Templates for creating course content for Xamarin University's self-guided learning portal</description>
     <releaseNotes>
 <![CDATA[
-0.7.6: [Fix] Less potential for YAML uncommenting to leave broken whitespace.
-0.7.5: [Fix] xamu-page: renaming file appropriately via page parameter now.
+0.8.2: [xamu-objective] Fix fallback {titleShort}.
+0.8.1: Mark more TODO items that require manual intervention.
+0.8.0: Realign common parameter names (breaking change) and correct inaccurate descriptions.
+0.7.6: Less potential for YAML uncommenting to leave broken whitespace.
+0.7.5: [xamu-page] Renaming file appropriately via page parameter now.
 0.7.4: Added page template.
+0.7.0: Initial course, objective, and exercise templates.
 ]]>
     </releaseNotes>
     <copyright>© 2018 Microsoft</copyright>
