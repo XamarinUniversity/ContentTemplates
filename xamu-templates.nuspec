@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>XamarinUniversity.ContentTemplates</id>
-    <version>0.8.2</version>
+    <version>0.8.4</version>
     <authors>Adam Patridge</authors>
     <licenseUrl>https://github.com/XamarinUniversity/ContentTemplates/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/XamarinUniversity/ContentTemplates</projectUrl>
@@ -10,6 +10,8 @@
     <description>Templates for creating course content for Xamarin University's self-guided learning portal</description>
     <releaseNotes>
 <![CDATA[
+0.8.4: [xamu-course] Fix short description replacement.
+0.8.3: [xamu-course] Add course card TODO file and required parameters.
 0.8.2: [xamu-objective] Fix fallback {titleShort}.
 0.8.1: Mark more TODO items that require manual intervention.
 0.8.0: Realign common parameter names (breaking change) and correct inaccurate descriptions.
