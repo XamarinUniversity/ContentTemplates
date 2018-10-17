@@ -11,6 +11,12 @@
         "a80eda4a-1105-44b6-a161-81bf7bac7557"
     ],
     "symbols": {
+        "courseSection": {
+            "type": "parameter",
+            "description": "Folder name where you are creating this course (e.g., \"forms\", \"ios\")",
+            "defaultValue": "forms",
+            "replaces": "{courseSection}"
+        },
         "courseId": {
             "type": "parameter",
             "defaultValue": "abc101",
@@ -67,8 +73,15 @@
         },
         "description": {
             "type": "parameter",
+            "description": "Full course description",
             "defaultValue": "This course is going to be amazing. You will learn all sorts of wonderful things.",
             "replaces": "{description}"
+        },
+        "shortDescription": {
+            "type": "parameter",
+            "description": "Shorter course description for use where space is limited (e.g., course card on section list)",
+            "defaultValue": "You will learn all sorts of wonderful things.",
+            "replaces": "{shortDescription}"
         },
         "objective1": {
             "type": "parameter",
