@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "XamarinUniversity.ContentTemplates.VideoPage",
+    "author": "Adam Patridge",
+    "classifications": [ "XamarinUniversity", "Course", "Page", "Video" ],
+    "name": "Course Page for Xamarin University",
+    "shortName": "xamu-videoPage",
+    "sourceName": "XamuVideoPageTemplate",
+    "preferNameDirectory": true,
+    "guids": [
+        "a80eda4a-1105-44b6-a161-81bf7bac7557"
+    ],
+    "symbols": {
+        "page": {
+            "type": "parameter",
+            "defaultValue": "default.md",
+            "fileRename": "page.md"
+        },
+        "title": {
+            "type": "parameter",
+            "defaultValue": "Course long title (ABC101)",
+            "replaces": "{title}"
+        },
+        "titleShort": {
+            "type": "parameter",
+            "defaultValue": "Course title",
+            "replaces": "{titleShort}"
+        },
+        "description": {
+            "description": "This is the short introduction paragraph to the [first] objective video.",
+            "type": "parameter",
+            "defaultValue": "<!--TODO-->",
+            "replaces": "{description}"
+        },
+        "youTubeVideoId": {
+            "type": "parameter",
+            "defaultValue": "dQw4w9WgXcQ",
+            "replaces": "{youTubeVideoId}"
+        }
+    }
+}
