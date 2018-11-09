@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "XamarinUniversity.ContentTemplates.VideoPage",
+    "author": "Adam Patridge",
+    "classifications": [ "XamarinUniversity", "Course", "Page", "Quiz" ],
+    "name": "Quiz Page (two questions) for Xamarin University",
+    "shortName": "xamu-quiz2Page",
+    "sourceName": "XamuQuiz2PageTemplate",
+    "preferNameDirectory": true,
+    "guids": [
+        "a80eda4a-1105-44b6-a161-81bf7bac7557"
+    ],
+    "symbols": {
+        "page": {
+            "type": "parameter",
+            "defaultValue": "quiz1.md",
+            "fileRename": "quiz.md"
+        },
+        "question1": {
+            "type": "parameter",
+            "replaces": "{question1}"
+        },
+        "answers1QuotedCsv": {
+            "type": "parameter",
+            "replaces": "{answers1}"
+        },
+        "correctIndex1": {
+            "description": "The index of the correct answer without quotes or a quoted list of all correct indices.",
+            "type": "parameter",
+            "replaces": "{correct1}"
+        },
+        "description1": {
+            "description": "The description shown when the question is answered.",
+            "type": "parameter",
+            "replaces": "{description1}"
+        },
+        "question2": {
+            "type": "parameter",
+            "replaces": "{question2}"
+        },
+        "answers2QuotedCsv": {
+            "type": "parameter",
+            "replaces": "{answers2}"
+        },
+        "correctIndex2": {
+            "description": "The index of the correct answer without quotes or a quoted list of all correct indices.",
+            "type": "parameter",
+            "replaces": "{correct2}"
+        },
+        "description2": {
+            "description": "The description shown when the question is answered.",
+            "type": "parameter",
+            "replaces": "{description2}"
+        },
+    }
+}

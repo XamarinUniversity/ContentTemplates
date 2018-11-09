@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>XamarinUniversity.ContentTemplates</id>
-    <version>0.8.5</version>
+    <version>0.9.1</version>
     <authors>Adam Patridge</authors>
     <licenseUrl>https://github.com/XamarinUniversity/ContentTemplates/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/XamarinUniversity/ContentTemplates</projectUrl>
@@ -10,16 +10,15 @@
     <description>Templates for creating course content for Xamarin University's self-guided learning portal</description>
     <releaseNotes>
 <![CDATA[
+0.9.1: [xamu-quizPage] Add quiz page templates for various question counts.
+0.9.0: [xamu-quizPage] Add quiz page template.
+0.8.6: [xamu-videoPage] Fix sample usage.
 0.8.5: [xamu-videoPage] Add video page template.
 0.8.4: [xamu-course] Fix short description replacement.
 0.8.3: [xamu-course] Add course card TODO file and required parameters.
 0.8.2: [xamu-objective] Fix fallback {titleShort}.
 0.8.1: Mark more TODO items that require manual intervention.
 0.8.0: Realign common parameter names (breaking change) and correct inaccurate descriptions.
-0.7.6: Less potential for YAML uncommenting to leave broken whitespace.
-0.7.5: [xamu-page] Renaming file appropriately via page parameter now.
-0.7.4: Added page template.
-0.7.0: Initial course, objective, and exercise templates.
 ]]>
     </releaseNotes>
     <copyright>© 2018 Microsoft</copyright>
@@ -34,5 +33,9 @@
     <file src=".\exercise\**" target="content\exercise" exclude=""/>
     <file src=".\page\**" target="content\page" exclude=""/>
     <file src=".\video-page\**" target="content\video-page" exclude=""/>
+    <file src=".\quiz-page\**" target="content\quiz-page" exclude="" />
+    <file src=".\quiz2-page\**" target="content\quiz2-page" exclude="" />
+    <file src=".\quiz3-page\**" target="content\quiz3-page" exclude="" />
+    <file src=".\quiz4-page\**" target="content\quiz4-page" exclude="" />
   </files>
 </package>

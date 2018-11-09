@@ -3,7 +3,7 @@
     "identity": "XamarinUniversity.ContentTemplates.VideoPage",
     "author": "Adam Patridge",
     "classifications": [ "XamarinUniversity", "Course", "Page", "Video" ],
-    "name": "Course Page for Xamarin University",
+    "name": "Video Page for Xamarin University",
     "shortName": "xamu-videoPage",
     "sourceName": "XamuVideoPageTemplate",
     "preferNameDirectory": true,
