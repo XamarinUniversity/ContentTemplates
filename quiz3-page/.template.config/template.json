@@ -1,6 +1,6 @@
 {
     "$schema": "http://json.schemastore.org/template",
-    "identity": "XamarinUniversity.ContentTemplates.VideoPage",
+    "identity": "XamarinUniversity.ContentTemplates.Quiz3Page",
     "author": "Adam Patridge",
     "classifications": [ "XamarinUniversity", "Course", "Page", "Quiz" ],
     "name": "Quiz Page (three questions) for Xamarin University",
@@ -25,7 +25,7 @@
             "replaces": "{answers1}"
         },
         "correctIndex1": {
-            "description": "The index of the correct answer without quotes or a quoted list of all correct indices.",
+            "description": "The 1-based index of the correct answer without quotes or a quoted list of all correct indices.",
             "type": "parameter",
             "replaces": "{correct1}"
         },
@@ -33,6 +33,24 @@
             "description": "The description shown when the question is answered.",
             "type": "parameter",
             "replaces": "{description1}"
+        },
+        "question2": {
+            "type": "parameter",
+            "replaces": "{question2}"
+        },
+        "answers2QuotedCsv": {
+            "type": "parameter",
+            "replaces": "{answers2}"
+        },
+        "correctIndex2": {
+            "description": "The 1-based index of the correct answer without quotes or a quoted list of all correct indices.",
+            "type": "parameter",
+            "replaces": "{correct2}"
+        },
+        "description2": {
+            "description": "The description shown when the question is answered.",
+            "type": "parameter",
+            "replaces": "{description2}"
         },
         "question3": {
             "type": "parameter",
@@ -43,7 +61,7 @@
             "replaces": "{answers3}"
         },
         "correctIndex3": {
-            "description": "The index of the correct answer without quotes or a quoted list of all correct indices.",
+            "description": "The 1-based index of the correct answer without quotes or a quoted list of all correct indices.",
             "type": "parameter",
             "replaces": "{correct3}"
         },

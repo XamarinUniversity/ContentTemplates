@@ -1,6 +1,6 @@
 {
     "$schema": "http://json.schemastore.org/template",
-    "identity": "XamarinUniversity.ContentTemplates.VideoPage",
+    "identity": "XamarinUniversity.ContentTemplates.QuizPage",
     "author": "Adam Patridge",
     "classifications": [ "XamarinUniversity", "Course", "Page", "Quiz" ],
     "name": "Quiz Page (one question) for Xamarin University",
@@ -25,7 +25,7 @@
             "replaces": "{answers1}"
         },
         "correctIndex1": {
-            "description": "The index of the correct answer without quotes or a quoted list of all correct indices.",
+            "description": "The 1-based index of the correct answer without quotes or a quoted list of all correct indices.",
             "type": "parameter",
             "replaces": "{correct1}"
         },
